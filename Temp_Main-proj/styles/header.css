@@ -1,0 +1,49 @@
+.main-header
+{
+    background-image: url("C:\VS_CODE\Web\Temp_Main-proj\header-imgs\AdobeStock_357161947_Preview-transformed.jpeg");
+    position : absolute;
+    top :0;
+    left : 0;
+    right: 0;
+    height : 200px;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items : center;
+    padding-left : 40px;
+    padding-right : 40px;
+    background-color : rgb(0, 0, 0);
+    border-radius : 20px;
+    
+}
+.first-header
+{
+    color : white;
+}
+.second-header
+{
+    display : flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color : lightgrey;
+    height : 50px;
+    border-radius : 20px;
+}
+.second-header div{
+    font-size: 14px;
+    margin-left: 10px;
+    transition : all 0.5s;
+    border-radius : 10px;
+    padding : 5px;
+}
+.second-header div:hover{
+    background-color : black;
+    color : white;
+    cursor : pointer;
+    font-size : 16px;
+}
+.thrid-header div
+{
+    color : rgb(255, 255, 255);
+}

@@ -1,0 +1,24 @@
+#video-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between videos */
+}
+
+.video-thumbnail {
+    width: 120px;
+    height: 90px;
+    opacity: 0.5; /* Less prominent videos */
+    transition: opacity 0.5s ease; /* Smooth transition for hover effect */
+}
+
+.video-main {
+    width: 240px;
+    height: 180px; /* Larger size for the main video */
+    opacity: 1; 
+    transform: scale(1.5);
+}
+
+.video-thumbnail:hover {
+    opacity: 0.75; /* Slightly more visible when hovered */
+}
